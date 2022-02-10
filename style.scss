@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Londrina+Shadow&family=Rye&display=swap');
+
+body {
+  background-color: #ff4d4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Crete Round', serif;
+  background-size: 100%;
+}
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px; 
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.quote-body {
+  max-width: 400px;
+  font-size: 1.5em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: right;
+}
+
+.button {
+  border-radius: 10px;
+  padding: 1em;
+  font-size: 1em;
+  color: white;
+  background-color: #FF1A1A;
+  margin: 2px;
+}
